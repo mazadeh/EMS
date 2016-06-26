@@ -5,3 +5,6 @@ CREATE TABLE [dbo].[Assignment](
 [Content] TEXT,
 [Attachment] FILE
 )
+
+INSERT INTO Assignment(AssignmentNumber, CourseName, Deadline, Content, Attachment) VALUES ("assignmentnumber" , "coursename", "deadline", "content", "attachment")
+DELETE FROM Assignment WHERE ID = "id"
