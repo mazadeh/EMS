@@ -594,4 +594,6 @@ a.socialIcon:hover, .socialHoverClass {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
  
+}.FOOTER_ADRESS {
+	list-style-type: none;
 }
