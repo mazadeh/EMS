@@ -1,4 +1,5 @@
 CREATE TABLE [dbo].[Assignment](
+[ID] INT,
 [AssignmentNumber] INT,
 [CourseName] NCHAR(20),
 [Deadline] DATE,

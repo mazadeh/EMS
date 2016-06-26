@@ -1,4 +1,5 @@
 CREATE TABLE [dbo].[Student](
+[ID] INT,
 [Father'sWorkAddress] TEXT,
 [Father'sEducationDegree] TEXT,
 [Father'sEducationDegree] TEXT,
