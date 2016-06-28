@@ -11,8 +11,6 @@ body{
 	margin-left: 120px;
 	margin-top: -150px;
 }
-/*nav bar drop down*/
-
 .navbar-brand { position: relative; z-index: 2; }
 
 .navbar-nav.navbar-right .btn {
@@ -598,8 +596,7 @@ a.socialIcon:hover, .socialHoverClass {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
  
-}
-.FOOTER_ADRESS {
+}.FOOTER_ADRESS {
 	list-style-type: none;
 }
 
@@ -754,7 +751,11 @@ table tr td:last-child {
 }
 .image-preview-input-title {
     margin-left:2px;
-}#exit_button {
+}
+.Selection{
+	text-align: center
+}
+#exit_button {
 	margin-right:5px;
 	margin-top:1px;
 	background-color:#FD5558;
@@ -776,3 +777,4 @@ table tr td:last-child {
 .news-board{
 	
 }
+	
