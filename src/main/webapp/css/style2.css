@@ -542,3 +542,12 @@ table tr td:last-child {
 	text-align:center;
 	width: 90px;
 }
+.table_addmark th{
+	text-align:center;
+	width: 90px;
+	
+	/* baraye safhe Create MArk dar jadval - kalame name khanevadegi*/
+}.CreateMark {
+	text-align:center;
+}
+
