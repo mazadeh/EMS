@@ -551,3 +551,15 @@ table tr td:last-child {
 	text-align:center;
 }
 
+/************************************************************************************************/
+/* table download excersis student*/
+.table_download_Excersis_std th{
+	width:90px;
+	text-align:center;
+}
+
+.table_download_Excersis_tch th{
+	width:90px;
+	text-align:center;
+}
+

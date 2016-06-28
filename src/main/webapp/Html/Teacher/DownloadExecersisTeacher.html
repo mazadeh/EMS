@@ -1,10 +1,7 @@
-
-
-
 <!DOCTYPE html>
 <html ng-app="stock" dir="rtl" lang="fa">
 <head>
-  <title>ارسال تمرین</title>
+  <title>دریافت تمرین-معلم</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../../css/style2.css">
@@ -49,11 +46,11 @@
        <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">تمرین‌ها <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">ارسال تمرین </a></li>
+            <li><a href="AddHomeWorkStudent.html">ارسال تمرین </a></li>
             <li><a href="#">دریافت تمرین</a></li>
           </ul>
         </li>
-          <li><a href="Profile.html">پروفایل</a></li>
+          <li><a href="#">پروفایل</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> خروج</a></li>
@@ -61,62 +58,42 @@
     </div>
   </div>
 </nav>
-  <div class="container"> <br />
-    <div class="row">
-    	<div class="col-md-12">
-        <p><h1>ارسال تمرین</h1></p>
-			<div class="panel panel-default">
-				<div class="panel-heading"><strong>تیتر تمرین </strong> <small> </small></div>
-				<div class="panel-body">
-					<div class="input-group image-preview">
-						<input placeholder="" type="text" class="form-control image-preview-filename" disabled="disabled">
-						<!-- don't give a name === doesn't send on POST/GET --> 
-						<span class="input-group-btn"> 
-						<!-- image-preview-clear button -->
-						<button type="button" class="btn btn-default image-preview-clear" style="display:none;"> <span class="glyphicon glyphicon-remove"></span> Clear </button>
-						<!-- image-preview-input -->
-						<div class="btn btn-default image-preview-input"> <span class="glyphicon glyphicon-folder-open"></span> <span class="image-preview-input-title">انتخاب پوشه</span>
-							<input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/>
-							<!-- rename it --> 
-						</div>
-                        
-                    
-                    
-                    
-                    
-                    
-                        
-                        <!-- button --> 
-                        
-                        
-                        <button type="button" class="btn btn-success image-preview-clear"> <span class="glyphicon glyphicon-upload"></span> ارسال </button>
-					
-					
-                    
-                    
-                    
-                    		
-							<!-- rename it --> 
-						</div>
-						</span> </div>
-					<!-- /input-group image-preview [TO HERE]--> 
-					
-					<br />
-					
-					<!-- Drop Zone -->
-					<div class="upload-drop-zone" id="drop-zone"> یا پوشه ها را گرفته و در این مکان رها کنید </div>
-					<br />
-					<!-- Progress Bar -->
-					
-					<br />
-				
-				</div>
-			</div>
-		</div>
-	</div>
+  
+<div class="container">
+<div class="row">
+<h1>دریافت تمرین</h1>
 </div>
+<div class="row">
+<br><br>
+<div class="col-md-4"></div>
+<div class="col-md-4"></div>
+<select class="col-md-4 selector_excersise">
+  <option value="volvo">شماره تمرین</option>
+  <option value="saab">تمرین ۱</option>
+  <option value="opel">تمرین ۲</option>
+  <option value="audi">تمرین ۳</option>
+</select>
 
-<!-- /container --> 
+<br><br>
+</div>
+ <div class="row">
+ <table class="table table-bordered table_download_Excersis_tch">
+    <thead>
+      <tr>
+        <th>نام و نام خانوادگی دانش آموز</th>
+        <th>فایل آپلود شده توسط دانش آموز</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>نام و نام خانوادگی</td>
+        <td><a href="">فایل آپلود شده</a></td>
+      </tr>
+   
+    </tbody>
+  </table>
+ </div>
+</div>
     
     <footer class="footer-distributed">
 
@@ -167,5 +144,5 @@
 		</footer>
 
 </body>
- <script src="../../js/StyleJS.js"></script>
 </html>
+
