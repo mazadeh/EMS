@@ -519,7 +519,6 @@ table tr td:last-child {
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin: 0;
 	padding: 0;
 	font-size: 20px;
 	cursor: pointer;
@@ -530,7 +529,13 @@ table tr td:last-child {
     margin-left:2px;
 }
 
-/********************/#send {
+/********************/
+#send {
 	width: 87px;
 	height: 34px;
 }
+
+/* css for menu bar " naem tamrin */ 
+
+
+

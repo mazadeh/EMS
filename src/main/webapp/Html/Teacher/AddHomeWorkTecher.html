@@ -1,7 +1,10 @@
+
+
+
 <!DOCTYPE html>
 <html ng-app="stock" dir="rtl" lang="fa">
 <head>
-  <title>دانش آموز - پروفایل</title>
+  <title>ارسال تمرین</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../../css/style2.css">
@@ -46,11 +49,11 @@
        <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">تمرین‌ها <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="AddHomeWorkStudent.html">ارسال تمرین </a></li>
+            <li><a href="#">ارسال تمرین </a></li>
             <li><a href="#">دریافت تمرین</a></li>
           </ul>
         </li>
-          <li><a href="#">پروفایل</a></li>
+          <li><a href="ProfileTeacher.html">پروفایل</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> خروج</a></li>
@@ -58,85 +61,85 @@
     </div>
   </div>
 </nav>
-  
-<div class="container">
-    <div class="col-md-3"></div>
-    <div class="row user-menu-container square">
-        <div class="col-md-7 user-details">
-            <div class="row coralbg white">
-                <div class="col-md-6 no-pad">
-                    <div class="user-pad">
-                        <h4>شما در قالب </h4>
-                        <h3 class="white">نام و نام خانوادگی</h3>                    
-                        <h4>وارد شدید</h4>
-                       
-                    </div>
-                </div>
-                <div class="col-md-6 no-pad">
-                    <div class="user-image" id="profileImage">
-                        <img src="../../image/Student_image/nobody_m.original.jpg" class="img-responsive thumbnail" id="image_profile" >
-                    </div>
-                </div>
-            </div>
-           
-          <h3> مشخصات فردی </h3>
-          <div class="col-md-8"></div>
-          <div class="col-md-8 col-sm-8 col-sm-offset-4">
-  <form class="form-horizontal" role="form">
-  
-    <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="نام دانش آموز" disabled>
-      </div>
-      <label for="Name" class="col-sm-1 control-label control-form lable-profile" id="name_edit">نام</label>
-    </div>
-    
-    <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control" type="text" placeholder="نام خانوادگی دانش آموز" disabled >
-      </div>
-      <label for="FamilyName" class="col-sm-1 control-label control-form " id="familyname_edit">نام خانوادگی</label>
-    </div>
-    
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="نام پدر" disabled>
-      </div>
-      <label for="FatherName" class="col-sm-1 control-label control-form " id="fathername_edit">نام پدر</label>
-    </div>
-    
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control" type="text" placeholder="شماره ملی" disabled>
-      </div>
-      <label for="SSN" class="col-sm-1 control-label control-form" id="SSN_edit">شماره ملی</label>
-    </div>
-   
-    
-    <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="تاریخ تولد" disabled>
-      </div>
-      <label for="Date Of Birth" class="col-sm-1 control-label control-form" id="birthday_edit">تاریخ تولد</label>
-    </div>
-    
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="شماره تماس" disabled>
-      </div>
-      <label for="PhoneNumber" class="col-sm-1 control-label control-form" id="telephone_edit">شماره تماس</label>
-    </div>
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="آدرس" disabled>
-      </div>
-      <label for="  Adress" class="col-sm-1 control-label control-form" id="address_edit">آدرس</label>
-    </div>
-  </form>
+  <div class="container"> <br />
+    <div class="row">
+    	
+        
+        <p><h1>آپلود تمرین</h1></p>
+        <br>
         </div>
-        </div>
+        
+         <div class="form-group ">
+         <div class="col-sm-8">
+         </div>
+      <div class="col-sm-4">
+        
+      
+      <label for="FatherName" class="col-sm-12 control-label control-form " ><h3>نام تمرین</h3></label>
+      <input class="form-control"  type="text" placeholder="نام تمرین" >
+      <br>
+      </div>
     </div>
+    <br>
+    
+    <div class="row">
+        
+        
+       
+    
+    <div class="col-md-12">
+			<div class="panel panel-default">
+				
+				<div class="panel-body">
+					<div class="input-group image-preview">
+						<input placeholder="" type="text" class="form-control image-preview-filename" disabled="disabled">
+						<!-- don't give a name === doesn't send on POST/GET --> 
+						<span class="input-group-btn"> 
+						<!-- image-preview-clear button -->
+						<button type="button" class="btn btn-default image-preview-clear" style="display:none;"> <span class="glyphicon glyphicon-remove"></span> Clear </button>
+						<!-- image-preview-input -->
+						<div class="btn btn-default image-preview-input"> <span class="glyphicon glyphicon-folder-open"></span> <span class="image-preview-input-title">انتخاب پوشه</span>
+							<input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/>
+							<!-- rename it --> 
+						</div>
+                        
+                    
+                    
+                    
+                    
+                    
+                        
+                        <!-- button --> 
+                        
+                        
+                        <button type="button" class="btn btn-success image-preview-clear"> <span class="glyphicon glyphicon-upload"></span> ارسال </button>
+					
+					
+                    
+                    
+                    
+                    		
+							<!-- rename it --> 
+						</div>
+						</span> </div>
+					<!-- /input-group image-preview [TO HERE]--> 
+					
+					<br />
+					
+					<!-- Drop Zone -->
+					<div class="upload-drop-zone" id="drop-zone"> یا پوشه ها را گرفته و در این مکان رها کنید </div>
+					<br />
+					<!-- Progress Bar -->
+					
+					<br />
+				
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+
+<!-- /container --> 
     
     <footer class="footer-distributed">
 
@@ -187,5 +190,5 @@
 		</footer>
 
 </body>
+ <script src="../../js/StyleJS.js"></script>
 </html>
-
