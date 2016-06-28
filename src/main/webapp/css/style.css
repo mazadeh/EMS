@@ -761,3 +761,18 @@ table tr td:last-child {
 	border-color:transparent;
 	
 }
+.image-news li{
+	display:inline;
+	list-style: none;
+}
+.image-news li{
+	width:10px;
+
+}
+.news{
+	text-align:center;
+	border:1px solid #000000;
+}
+.news-board{
+	
+}
