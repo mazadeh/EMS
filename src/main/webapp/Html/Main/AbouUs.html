@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html ng-app="stock" dir="rtl" lang="fa">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>مدرسه</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body ng-controller="StockController as stockCtrl">
+ <div class="container">
+        <div class="row">
+        
+        <ul class="logo">
+                    <li>
+                        <img src="../../image/logo.png" alt="First slide"  height="120" width="120">
+                    </li>
+         </ul>
+        </div>
+</div>
+    <!-- Navigation -->
+        <!-- Second navbar for sign in -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-2">
+          <ul class="nav navbar-nav navbar-right">
+          
+            <li><a href="ContactUs.html">ارتباط با ما</a></li>
+            <li><a href="AbouUs.html">درباره ما</a></li>
+            <li><a href="Personel.html">پرسنل</a></li>      
+            <li><a href="Gallery.html">گالری</a></li>
+            <li><a href="#">اخبار</a></li>
+            <li><a href="index.html">خانه</a></li>
+            <li>
+              <a class="btn btn-default btn-outline btn-circle collapsed"  data-toggle="collapse" href="#nav-collapse2" aria-expanded="false" aria-controls="nav-collapse2">ورود به سامانه</a>
+            </li>
+          </ul>
+          <div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse2">
+            <form class="navbar-form navbar-right form-inline" role="form">
+              <div class="form-group">
+                <label class="sr-only" for="Email">Email</label>
+                <input type="email" class="form-control" id="Email" placeholder="نام کاربری" autofocus required />
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="Password">Password</label>
+                <input type="password" class="form-control" id="Password" placeholder="گذر واژه" required />
+              </div>
+              <button type="submit" class="btn btn-success">ورود</button>
+            </form>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+    
+
+   <div class="container">
+					<div class="row">
+                    
+                      <div class="col-sm-1"></div>
+                      <div class="col-sm-1"></div>
+                    <div class="col-sm-8">
+                    <h2>درباره ما</h2>
+                    <p id="ABOUT_US_PARAGRAPH">
+                    این واحد آموزشی در سال ۱۳۷۷ با همت و تلاش مدیریت وقت آموزش و پرورش جهت تامین رفاه و ارتقای کیفیت آموزشی فرزندان فرهنگیان منطقه ۶در فضای آموزشی ویژه با نام " شهدای معلم "شروع به کار نموده است . حضور پرسنل خدوم و زحمتکش و دانش آموزان ساعی و تلاشگر موجبات پیشرفت و ترقی مدرسه و تراکم بیش از حد را در بین مدارس دولتی فراهم نمود، به گونه ای که فضای آموزشی امکان ثبت نام را محدود نموده و در سالهای بعد به علت تشابه نام شهدای معلم با مدارس دیگر ، واحد آموزشی به نام "امیرکبیر" تغییر نمود.
+از افتخارات این واحد آموزشی قبولی دانش آموزان خروجی در مدارس خاص شهر تهران و برتری در المپیادهای علمی و منطقه ای و حضور فعال در مسابقات فرهنگی و هنری و ورزشی و تدارک و برنامه ریزی فعالیتهای یکساله و ارائه آن با اولیاء و … می باشد.
+مدرسه راهنمایی امیرکبیر در سال تحصیلی ۹۲-۹۱ با تلاش ریاست محترم آموزش و پرورش به فضای کنونی انتقال یافته که از استاندارد های مطلوبی برخوردار است . هم اکنون کلیه کلاسها مجهز به پرژکتور و تخته هوشمند(اسمارت برد )می باشد.
+مدرسه راهنمایی امیرکبیر هم اکنون در یک شیفت فعالیت داشته و با توجه به دستور العمل های صادر شده صرفا از دانش آموزان محدوده خود ثبت نام به عمل می آورد. و چنانچه ظرفیت خالی وجود داشته باشد پذیرای فرزندان فرهنگیان شاغل در منطقه نیز می باشد .در ضمن در سال تحصیلی ۹۳-۹۲ مدرسه به دوره دوم دبستان اختصاص یافته است. 
+</p>
+
+
+
+
+
+
+        </div>
+           <div class="col-sm-1"></div>
+           <div class="col-sm-1"></div>
+     </div>
+					    	</div>                       
+   
+    
+    <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+			  <h3>لینک های مرتبط</h3>
+
+				<ul class="UL_FOOTER">
+				  <li><a href="http://www.medu.ir/portal/home.php?ocode=100010876"> وزارت آموز و پرورش</a><br>
+			      </li>
+                   <li><a href="http://tehranedu.ir">وزارت آموزش و پرورش شهر تهران</a><br>
+			      </li>
+                   <li><a href="http://www.tehranedu2.ir/Default.aspx?page=660">وزارت آموزش و پرورش منطقه ۲</a><br>
+			      </li>
+			  </ul>
+				
+			</div>
+
+			<div class="footer-center">
+
+					<div class="col-md-12">
+
+					 <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>		
+
+					</div>
+
+				
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<ul class="FOOTER_ADRESS">
+                    <li><span>آدرس : </span> میدان انقلاب اسلامی ، خیابان قدس ، دانشگاه تهران ، پردیس علوم </li>
+                    <li><span>تلفن : </span>۹۸۲۱۶۶۱۱۲۲۲۲+</li>
+                    <li><span>فکس : </span>۹۸۲۱۶۶۱۱۲۲۲۳+</li>
+                    
+                    </ul>
+				</p>
+				<p class="footer-company-name">copy right &copy; 2016</p>
+			</div>
+
+		</footer>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    	<script src="../../js/jquery.js"></script>
+		<script src="./lib/jquery.min.js"></script>
+		<script type="text/javascript" src="../../lib/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../../lib/angular.min.js"></script>
+		<script type="text/javascript" src="../../lib/angular-messages.min.js"></script>
+		<script type="text/javascript" src="../../js/app.js"></script>
+	
+</body>
+
+</html>
