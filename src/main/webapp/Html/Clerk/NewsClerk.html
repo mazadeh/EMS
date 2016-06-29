@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="stock" dir="rtl" lang="fa">
 <head>
-  <title>دفتردار - پروفایل</title>
+  <title>خبر</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../../css/style2.css">
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -50,7 +52,7 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">درخواست ها <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="404-clerk.html">گزارش حقوق دریافتی</a></li>
+             <li><a href="404-clerk.html">گزارش حقوق دریافتی</a></li>
             
           </ul>
         </li>
@@ -63,86 +65,53 @@
     </div>
   </div>
 </nav>
-  
-  
-<div class="container">
-    <div class="col-md-3"></div>
-    <div class="row user-menu-container square">
-        <div class="col-md-7 user-details">
-            <div class="row coralbg white">
-                <div class="col-md-6 no-pad">
-                    <div class="user-pad">
-                        <h4>شما در قالب </h4>
-                        <h3 class="white">نام و نام خانوادگی</h3>                    
-                        <h4>وارد شدید</h4>
-                       
-                    </div>
+
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+     <div class="col-md-2"></div>
+    <div class="col-md-8">    <h1>اخبار</h1>  </div>
+     <div class="col-md-2"></div>
+     </div>
+     <br>
+    <div class="row">
+            
+            		 <div class="col-md-2"></div>
+                <div class="col-md-8 col-sm-12">
+            	<ul class="image-news" >
+                	<li><img src="../../image/personel/128.jpg" alt="Second slide" data-toggle="collapse" data-target="#1"></li>
+                   <li><img src="../../image/personel/129.jpg" alt="Second slide" data-toggle="collapse" data-target="#2"></li>
+                    <li><img src="../../image/personel/130.jpg" alt="Second slide" data-toggle="collapse" data-target="#3"></li>
+                    <li><img src="../../image/personel/131.jpg" alt="Second slide" data-toggle="collapse" data-target="#4"></li>
+                     <li><img src="../../image/personel/128.jpg" alt="Second slide" data-toggle="collapse" data-target="#5"></li>
+                </ul>
                 </div>
-                <div class="col-md-6 no-pad">
-                    <div class="user-image" id="profileImage">
-                        <img src="../../image/Student_image/nobody_m.original.jpg" class="img-responsive thumbnail" id="image_profile" >
-                    </div>
-                </div>
+                <div class="col-md-2"></div>
             </div>
-           
-          <h3> مشخصات فردی </h3>
-          <div class="col-md-8"></div>
-          <div class="col-md-8 col-sm-8 col-sm-offset-4">
-  <form class="form-horizontal" role="form">
-  
-    <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="نام دانش آموز" disabled>
-      </div>
-      <label for="Name" class="col-sm-1 control-label control-form lable-profile" id="name_edit">نام</label>
+            <div id="row">
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-8 news-board">
+            	<div id="1" class="collapse news">
+						   متن خبر ۱
+			  	</div>
+                <div id="2" class="collapse news">
+						متن خبر ۲
+			  	</div>
+                <div id="3" class="collapse news">
+					متن خبر ۳
+			  	</div>
+                <div id="4" class="collapse news">
+						متن خبر ۴
+			  	</div>
+                <div id="5" class="collapse news">
+						متن خبر ۵
+			  	</div>
+		  </div>
+     </div>
     </div>
-    
-    <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control" type="text" placeholder="نام خانوادگی دانش آموز" disabled >
-      </div>
-      <label for="FamilyName" class="col-sm-1 control-label control-form " id="familyname_edit">نام خانوادگی</label>
-    </div>
-    
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="نام پدر" disabled>
-      </div>
-      <label for="FatherName" class="col-sm-1 control-label control-form " id="fathername_edit">نام پدر</label>
-    </div>
-    
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control" type="text" placeholder="شماره ملی" disabled>
-      </div>
-      <label for="SSN" class="col-sm-1 control-label control-form" id="SSN_edit">شماره ملی</label>
-    </div>
-   
-    
-    <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="تاریخ تولد" disabled>
-      </div>
-      <label for="Date Of Birth" class="col-sm-1 control-label control-form" id="birthday_edit">تاریخ تولد</label>
-    </div>
-    
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="شماره تماس" disabled>
-      </div>
-      <label for="PhoneNumber" class="col-sm-1 control-label control-form" id="telephone_edit">شماره تماس</label>
-    </div>
-     <div class="form-group">
-      <div class="col-sm-6">
-        <input class="form-control"  type="text" placeholder="آدرس" disabled>
-      </div>
-      <label for="  Adress" class="col-sm-1 control-label control-form" id="address_edit">آدرس</label>
-    </div>
-  </form>
-        </div>
-        </div>
-    </div>
-</div>    
+                
     <footer class="footer-distributed">
 
 			<div class="footer-left">
@@ -193,4 +162,3 @@
 
 </body>
 </html>
-
