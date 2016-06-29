@@ -568,3 +568,25 @@ table tr td:last-child {
 	margin-left:auto;
 	width:1000px;
 }
+/* Social Network */
+/* footer social icons */
+.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+.social-network li {
+	display: inline;
+	margin: 0 5px;
+	}
+.social-network ul li a image{
+		width:5px;
+		height:5px;
+	}
+
+
+/* footer social icons */
+.social {
+	width: 50px;
+}
