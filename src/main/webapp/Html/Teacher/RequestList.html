@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="stock" dir="rtl" lang="fa">
 <head>
-  <title>ایجاد نمره</title>
+  <title>لیست دانش آموزان</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../../css/style2.css">
@@ -22,8 +22,6 @@
         </div>
 </div>
 
-
-
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -39,7 +37,7 @@
        <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">درخواست ها  <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="AddHomeWorkTecher.html">مشاهده لیست دانش آموزان </a></li>
+            <li><a href="RequestList.html">مشاهده لیست دانش آموزان </a></li>
             <li><a href="#">گزارش حقوق دریافتی</a></li>
           </ul>
         </li>
@@ -60,46 +58,45 @@
     </div>
   </div>
 </nav>
-  <div class="container">
-  	<div class="row">
-    <h1>ایجاد نمره</h1>
-    <br>
-    <div class="col-md-4"></div>
-	<div class="col-md-4"></div>
-    <select class="col-md-4 selector_excersise">
-  <option value="">انتخاب کنید</option>
-  <option value="">درس 1 </option>
-  <option value="">درس 2 </option>
-  <option value="">درس 3 </option>
-  <option value="">درس 4 </option>
   
+<div class="container">
+   <div class="row">
+<h1>لیست</h1>
+</div>
+<div class="row">
+<br><br>
+<div class="col-md-4"></div>
+<div class="col-md-4"></div>
+<select class="col-md-4 selector_excersise">
+  <option value="">انتخاب کنید</option>
+  <option value="">معلم</option>
+  <option value="">دانش آموزان پایه اول</option>
+  <option value="">دانش آموزان پایه دوم</option>
+  <option value="">دانش آموز پایه سوم</option>
+  <option value="">لیست درس‌ها</option>
 </select>
-<br>
-<br>
-     <table class="table table-bordered table_addmark">
+
+<br><br>
+</div>
+ <div class="row col-md-6 col-md-6 pull-right">
+ <table class="table table-bordered table_download_Excersis_tch">
     <thead>
       <tr>
-     	
-        <th>نام و نام خانوادگی دانش آموز</th>
-        <th>نمره میان ترم</th>
-        <th>نمره پایان ترم</th>
-        <th>نمره نهایی</th>
+        <th>نام و نام خانوادگی / درس</th>
+       
       </tr>
     </thead>
     <tbody>
       <tr>
-      	
-        <td class="CreateMark">نام و نام خانوادگی</td>
-        <td><input class="form-control"  type="text" placeholder="نمره میان ترم" ></td>
-        <td><input class="form-control"  type="text" placeholder="نمره پایان ترم" ></td>
-        <td><input class="form-control"  type="text" placeholder="نمره نهایی" ></td>
+        <td>نام و نام خانوادگی / نام درس</td>
+        
       </tr>
- 
+   
     </tbody>
   </table>
-  </div>
-  </div>
-
+ </div>
+</div>
+    
     <footer class="footer-distributed">
 
 			<div class="footer-left">
@@ -149,6 +146,5 @@
 		</footer>
 
 </body>
-<script src="../../js/StyleJS2.js"></script>
 </html>
 
