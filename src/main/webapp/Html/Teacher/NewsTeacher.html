@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="stock" dir="rtl" lang="fa">
 <head>
-  <title>لیست دانش آموزان</title>
+  <title>خبر</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../../css/style2.css">
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -33,12 +35,12 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../Main/news.html">اخبار</a></li>
+        <li><a href="NewsTeacher.html">اخبار</a></li>
        <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">درخواست ها  <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="RequestList.html">مشاهده لیست دانش آموزان </a></li>
-            <li><a href="#">گزارش حقوق دریافتی</a></li>
+            <li><a href="RequestListTeacher.html">مشاهده لیست دانش آموزان </a></li>
+            <li><a href="404-Teacher.html">گزارش حقوق دریافتی</a></li>
           </ul>
         </li>
         
@@ -58,45 +60,53 @@
     </div>
   </div>
 </nav>
-  
-<div class="container">
-   <div class="row">
-<h1>لیست</h1>
-</div>
-<div class="row">
-<br><br>
-<div class="col-md-4"></div>
-<div class="col-md-4"></div>
-<select class="col-md-4 selector_excersise">
-  <option value="">انتخاب کنید</option>
-  <option value="">معلم</option>
-  <option value="">دانش آموزان پایه اول</option>
-  <option value="">دانش آموزان پایه دوم</option>
-  <option value="">دانش آموز پایه سوم</option>
-  <option value="">لیست درس‌ها</option>
-</select>
 
-<br><br>
-</div>
- <div class="row col-md-6 col-md-6 pull-right">
- <table class="table table-bordered table_download_Excersis_tch">
-    <thead>
-      <tr>
-        <th>نام و نام خانوادگی / درس</th>
-       
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>نام و نام خانوادگی / نام درس</td>
-        
-      </tr>
-   
-    </tbody>
-  </table>
- </div>
-</div>
-    
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+     <div class="col-md-2"></div>
+    <div class="col-md-8">    <h1>اخبار</h1>  </div>
+     <div class="col-md-2"></div>
+     </div>
+     <br>
+    <div class="row">
+            
+            		 <div class="col-md-2"></div>
+                <div class="col-md-8 col-sm-12">
+            	<ul class="image-news" >
+                	<li><img src="../../image/personel/128.jpg" alt="Second slide" data-toggle="collapse" data-target="#1"></li>
+                   <li><img src="../../image/personel/129.jpg" alt="Second slide" data-toggle="collapse" data-target="#2"></li>
+                    <li><img src="../../image/personel/130.jpg" alt="Second slide" data-toggle="collapse" data-target="#3"></li>
+                    <li><img src="../../image/personel/131.jpg" alt="Second slide" data-toggle="collapse" data-target="#4"></li>
+                     <li><img src="../../image/personel/128.jpg" alt="Second slide" data-toggle="collapse" data-target="#5"></li>
+                </ul>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div id="row">
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-8 news-board">
+            	<div id="1" class="collapse news">
+						   متن خبر ۱
+			  	</div>
+                <div id="2" class="collapse news">
+						متن خبر ۲
+			  	</div>
+                <div id="3" class="collapse news">
+					متن خبر ۳
+			  	</div>
+                <div id="4" class="collapse news">
+						متن خبر ۴
+			  	</div>
+                <div id="5" class="collapse news">
+						متن خبر ۵
+			  	</div>
+		  </div>
+     </div>
+    </div>
+                
     <footer class="footer-distributed">
 
 			<div class="footer-left">
@@ -147,4 +157,3 @@
 
 </body>
 </html>
-
